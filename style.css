@@ -3,8 +3,9 @@
 }
 
 body {
-    background: url(portfolioBackgroundlarge.jpg) no-repeat center fixed;
+    background: url(PortfolioBackgroundMedium.jpg) no-repeat center fixed;
     background-size: cover;
+    background-color: #8b0000;
     display: flex;
     flex-direction: column;
     align-items: center;
