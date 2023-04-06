@@ -1,0 +1,42 @@
+body {
+    background-image: url(PortfolioBackgroundMedium.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    background-color: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(8px);
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2 {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.section {
+    width: 50%;
+    background-color: rgba(255, 255, 255, .80);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#photo {
+    background-image: url(DerekWheelerPhoto.jpg);
+    height: 350px;
+    width: 350px;
+    border-radius: 300px;
+    margin-bottom: 100px;
+    border: solid white 10px;
+}
