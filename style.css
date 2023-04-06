@@ -1,5 +1,10 @@
+@media screen {
+    
+}
+
 body {
-    background-image: url(PortfolioBackgroundMedium.jpg);
+    background: url(portfolioBackgroundlarge.jpg) no-repeat center fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +25,8 @@ h2 {
 }
 .section {
     width: 65%;
-    min-width: 250px;
+    min-width: 300px;
+    max-width: 700px;
     background-color: rgba(255, 255, 255, .80);
     backdrop-filter: blur(8px);
     border-radius: 20px;
@@ -35,10 +41,12 @@ p {
 }
 #photo {
     background-image: url(DerekWheelerPhoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
     width: 300px;
     background-position: -27px -44px;
     border-radius: 300px;
     margin-bottom: 100px;
-    border: solid white 10px;
+    border: solid white 5px;
 }
