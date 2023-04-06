@@ -3,9 +3,8 @@
 }
 
 body {
-    background: url(PortfolioBackgroundMedium.jpg) center fixed;
+    background: url(PortfolioBackgroundMedium.jpg) center;
     background-size: cover;
-    min-height: 100%;
     background-color: #8b0000;
     display: flex;
     flex-direction: column;
