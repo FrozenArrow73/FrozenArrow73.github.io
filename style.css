@@ -19,7 +19,8 @@ h2 {
     padding-right: 15px;
 }
 .section {
-    width: 50%;
+    width: 65%;
+    min-width: 250px;
     background-color: rgba(255, 255, 255, .80);
     backdrop-filter: blur(8px);
     border-radius: 20px;
@@ -34,8 +35,9 @@ p {
 }
 #photo {
     background-image: url(DerekWheelerPhoto.jpg);
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
+    background-position: -27px -44px;
     border-radius: 300px;
     margin-bottom: 100px;
     border: solid white 10px;
